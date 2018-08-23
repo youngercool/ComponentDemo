@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".PicLoadeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="picLoad Module 首页"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300px"
+        android:layout_marginTop="100px"
+        android:layout_height="wrap_content"
+        android:text="点" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_marginTop="100px"
+        android:layout_width="700px"
+        android:layout_height="700px"
+        android:src="@mipmap/ic_launcher"/>
+</LinearLayout>
